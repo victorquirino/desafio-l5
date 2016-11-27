@@ -67,13 +67,14 @@ body{
 .sidebar{
   float: left;
   background: #bf131f;
-  text-align: center;
+  text-align: left;
   border-radius: 5px;
   padding: 10px 0px;
 }
 .sidebar h5{
   font-family: 'Lato', sans-serif;
   color: #fff;
+  padding: 0px 10px;
 }
 .list-minify-calls{
   float: left;
@@ -89,7 +90,7 @@ body{
   color: #fff;
   text-align: left;
   font-family: 'Lato', sans-serif;
-  padding: 4px 5px;
+  padding: 4px 10px;
   font-size: 13px;
 }
 .list-minify-calls ul li:hover{
@@ -100,9 +101,116 @@ body{
   background: #330000 !important;
 }
 .sidebar span{
+  width: 100%;
+  text-align: center;
   font-family: 'Lato', sans-serif;
   color: #fff;
   font-size: 13px;
   display: inline-block;
   margin-top: 15px;
+}
+.queue-main{
+  float: left;
+  padding: 0px 25px;
+}
+.queue-content{
+  float: left;
+  border: 1px solid #343434;
+  border-radius: 3px;
+}
+.header-queue-content{
+  width: 100%;
+  float: left;
+  padding: 10px;
+  border-bottom: 1px solid #343434;
+}
+.header-queue-content h5{
+  float: left;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: -1px;
+}
+.search-call{
+  float: right;
+}
+.list-calls-status{
+  float: left;
+}
+.list-calls-status ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.list-calls-status ul li{
+  width: 100%;
+  float: left;
+  padding: 10px;
+  border-bottom: 1px solid #343434;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  background: #efefef;
+}
+.list-calls-status ul li:nth-child(odd){
+  background: #8a8a8a;
+}
+.list-calls-status ul li:nth-child(even){
+  background: #777;
+}
+.number-name-call{
+  float: left;
+  clear: both;
+}
+.list-calls-status ul li span{
+  float: left;
+  clear: both;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 3px;
+}
+.paused-status{
+  background: #ffae00;
+}
+.confimed-status{
+  background: #0a6d2f;
+}
+.cancelled-status{
+  background: #bf131f;
+}
+.time-call{
+  float: right;
+}
+.all-status-calls{
+  float: right;
+  border: 1px solid #343434;
+  border-radius: 3px;
+}
+.all-status-calls h5{
+  width: 100%;
+  float: left;
+  padding: 10px;
+  color: #fff;
+  border-bottom: 1px solid #343434;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: -1px;
+}
+.list-all-status-calls{
+  width: 100%;
+  float: left;
+}
+.list-all-status-calls ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.list-all-status-calls ul li{
+  width: 100%;
+  float: left;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  border-bottom: 1px solid #343434;
+  font-size: 15px;
+}
+.list-all-status-calls ul li span{
+  float: right;
 }
