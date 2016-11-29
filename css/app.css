@@ -101,13 +101,13 @@ body{
   list-style: none;
 }
 .menu-main-list-calls ul li{
-  display: inline-block;
+  float: left;
   color: #555;
   font-weight: bold;
   border-right: 1px solid #555;
   font-family: 'Lato', sans-serif;
   font-size: 13px;
-  padding: 6px 6px;
+  padding: 6px 8px;
 }
 .menu-main-list-calls ul li:hover{
   color: #bf131f;
@@ -138,7 +138,7 @@ body{
   list-style: none;
 }
 .table-labels-head li{
-  width: 12.5%;
+  width: 11%;
   text-align: center;
   float: left;
   color: #fff;
@@ -172,7 +172,7 @@ body{
   list-style: none;
 }
 .table-labels-content li{
-  width: 12.5%;
+  width: 11%;
   text-align: center;
   float: left;
   position: relative;
@@ -268,7 +268,7 @@ body{
 }
 .main-content{
   float: left;
-  padding: 14px 10px;
+  padding: 14px 0px;
 }
 .sidebar{
   float: left;
@@ -350,11 +350,15 @@ body{
 .list-calls-status ul li{
   width: 100%;
   float: left;
-  padding: 10px;
   border-bottom: 1px solid #343434;
+  background: #efefef;
+}
+.list-calls-status ul li a{
+  width: 100%;
+  float: left;
+  padding: 10px;
   color: #fff;
   font-family: 'Lato', sans-serif;
-  background: #efefef;
 }
 .list-calls-status ul li:nth-child(odd){
   background: #8a8a8a;
@@ -366,7 +370,7 @@ body{
   float: left;
   clear: both;
 }
-.list-calls-status ul li span{
+.list-calls-status ul li a span{
   float: left;
   clear: both;
   font-size: 14px;
@@ -427,4 +431,129 @@ body{
 }
 .list-all-status-calls ul li span{
   float: right;
+}
+
+.main-form-edit-call{
+  float: left;
+}
+.content-form-edit-call{
+  float: left;
+  min-height: 300px;
+  position: relative;
+  padding: 6px;
+}
+.main-form-edit-call h5{
+  width: 100%;
+  border-bottom: 1px solid #bf131f;
+  color: #bf131f;
+  float: left;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+.main-forms-blocks{
+  float: left;
+  padding-top: 15px;
+}
+.main-forms-blocks ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.main-forms-blocks ul li{
+  width: 100%;
+  float: left;
+}
+.main-forms-blocks label{
+  font-family: 'Lato', sans-serif;
+  float: left;
+  color: #444;
+  font-weight: bold;
+}
+.main-forms-blocks input{
+  width: auto;
+  height: auto;
+  float: left;
+  outline: none;
+  box-shadow: none;
+  padding:3px;
+  font-family: 'Lato', sans-serif;
+  color: #444;
+  border: 1px solid #bf131f !important;
+}
+
+.main-forms-blocks select{
+  width: 31%;
+  height: auto;
+  float: left;
+  outline: none;
+  box-shadow: none;
+  padding:3px;
+  font-family: 'Lato', sans-serif;
+  color: #444;
+  border: 1px solid #bf131f !important;
+}
+
+.block-codecs-main{
+  float: left;
+  position: relative;
+  text-align: center;
+}
+.block-codecs-main img{
+  position: absolute;
+  top: 45%;
+}
+.right-arrow{
+  left: 77%;
+}
+.left-arrow{
+  right: 75px;
+}
+.box-choose-options-codecs{
+  width: 50%;
+  float: left;
+  clear: both;
+  border: 1px solid #bf131f;
+}
+.box-choose-options-codecs ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.box-choose-options-codecs ul li{
+  width: 100%;
+  float: left;
+  text-align: left;
+  padding: 3px;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+}
+.box-choose-options-codecs ul li:active{
+  background: #ccc;
+}
+
+.box-chat-main{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #E97616;
+  cursor: pointer;
+}
+.box-chat-main span{
+  float: left;
+  padding: 5px 25px;
+}
+.img-bubble-chat{
+  height: 100%;
+  float: left;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  background: #d96900;
+}
+.img-bubble-chat img{
+
 }
